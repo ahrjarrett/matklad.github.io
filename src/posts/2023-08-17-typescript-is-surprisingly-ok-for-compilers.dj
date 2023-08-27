@@ -177,7 +177,7 @@ signature of
 function infer_types(expr: ast.Expr<void>): ast.Expr<Type>
 ```
 
-As it says on the tin, `inter_types` fills in `Type` information into the void! Let's fill in the
+As it says on the tin, `infer_types` fills in `Type` information into the void! Let's fill in the
 details!
 
 ```ts
